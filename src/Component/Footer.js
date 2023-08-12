@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="footer-logos-con">
                 <img src="https://retink.io/LOGO.svg" alt="" />
                 <img src={kujiaLogo} alt="Kujai logo"  />
-                <img src={kampusLogo} alt="" />
+                <img src={kampusLogo} alt="Kampus logo" />
                 
             </div>
             <div className="footer-con">

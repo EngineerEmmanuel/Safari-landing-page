@@ -26,7 +26,9 @@ const SliderSection = () => {
         width:"100%",
         backgroundRepeat:"noRepeat",
         backgroundSize:"cover",
-        backgroundPosition:"center",
+        backgroundPosition:"center center",
+        maxWidth:"100%",
+        imageRendering: "pixelated"
     }
     const Prev =()=>{
         setIndex((index)=>{

@@ -30,7 +30,7 @@ const Navigation = () => {
                 </div>
                 { isMobile &&
                     <div className="mobile-nav-con">
-                        <ul>
+                        <ul onClick={()=> setIsMobile(!isMobile)}>
                             <li>Home</li>
                             <li> <a href="https://retink.io/about/">About</a></li>
                             <li> <a href="https://retinkmedia.com/sponsor-a-techie/">Sponsorship</a></li>

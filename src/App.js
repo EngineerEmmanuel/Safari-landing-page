@@ -8,6 +8,7 @@ import Footer from './Component/Footer';
 import SliderSection from './Component/SliderSection';
 import Fade from 'react-reveal/Fade';
 import RubberBand from 'react-reveal/RubberBand';
+import FAQSection from './Component/FaqSection';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Fade top>
       <FeatureSection/>
       </Fade>
+      <FAQSection/>
       <RubberBand>
       <Footer/>
       </RubberBand>
