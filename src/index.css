@@ -118,7 +118,8 @@ nav{
   background-color: #695BA7;
   position: absolute;
   top: 47%;
-  padding: 0.2rem 0.5rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 100px;
   left: 10px;
   font-size: 2rem;
@@ -129,10 +130,12 @@ nav{
 .right-arrow{
   background-color: #695BA7;
   position: absolute;
+  width: 3rem;
+  height: 3rem;
   right: 10px;
   top: 47%;
   cursor: pointer;
-  padding: 0.2rem 0.5rem;
+ 
   border-radius: 100px;
   font-size: 2rem;
   color: white;
@@ -507,17 +510,25 @@ footer > hr{
     padding-top: 1rem;
   }
   .left-arrow{
-    padding: 0.2rem 0.3rem;
-    
+    width: 2.5rem;
+    height: 2.5rem;
     left: 10px;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .right-arrow{
-    padding: 0.2rem 0.3rem;
-    font-size: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
   }
   .feature-section{
     margin-top: 4rem;
+  }
+}
+@media (max-width:367px) {
+  .slider-section-text{
+    padding-top: 19rem;
+   
+    
   }
 }
 @media (max-width:359px) {
@@ -529,15 +540,17 @@ footer > hr{
     margin-top: 4rem;
   }
   .left-arrow{
-    padding: 0.2rem 0.3rem;
     
     left: 10px;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
   }
   .right-arrow{
-    padding: 0.2rem 0.3rem;
     
-    font-size: 1rem;
+    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 }
 
@@ -562,17 +575,7 @@ footer > hr{
     font-size: 1.1rem;
     
   }
-  .left-arrow{
-    padding: 0.2rem 0.3rem;
-    
-    left: 10px;
-    font-size: 1rem;
-  }
-  .right-arrow{
-    padding: 0.2rem 0.3rem;
-    
-    font-size: 1rem;
-  }
+  
 }
 @media (max-width:331px) {
   .when-background-con >h2{
@@ -591,5 +594,17 @@ footer > hr{
   .grid-element-text{
     padding-left: 0.1rem;
     padding-right: 0.1rem;
+  }
+}
+@media (max-width:307px){
+  .when-background-con{
+    width: 100%;
+  }
+  .hero-text-con >h1{
+    font-size: 2.5rem;
+    
+  }
+  .hero-img-con > img{
+    width: 100%;
   }
 }

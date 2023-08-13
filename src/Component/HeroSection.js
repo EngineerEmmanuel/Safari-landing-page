@@ -8,7 +8,7 @@ const HeroSection = () => {
                 <p>Your safari makes it possible for a Kenyan youth from the slum<br/>or shanties to learn digital skills that helps take them off poverty</p>
                 <RubberBand>
                 <div className="hero-btn-con">
-                    <button><a href="http://techiessafari.retinkmedia.com/">Book Trip Now</a></button>
+                    <button><a href="https://safarisales.retinkmedia.com/">Book Trip Now</a></button>
                     
                 </div>
                 </RubberBand>
