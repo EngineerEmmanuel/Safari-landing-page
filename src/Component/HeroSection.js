@@ -5,10 +5,10 @@ const HeroSection = () => {
         <section>
             <div className="hero-text-con">
                 <h1>THE ONLY SAFARI FOR TECHIES<br/>SUPPORTING NEW TECHIES</h1>
-                <p>Your safari makes it possible for a Kenyan youth from the slum<br/>or shanties to learn digital skills that helps take them off poverty</p>
+                <p>Your safari makes it possible for a Kenyan youth from the slum<br className="break-tag"/>or shanties to learn digital skills that helps take them off poverty</p>
                 <RubberBand>
                 <div className="hero-btn-con">
-                    <button><a href="https://safarisales.retinkmedia.com/">Book Trip Now</a></button>
+                    <button><a href="http://safarisales.retinkmedia.com/">Book Trip Now</a></button>
                     
                 </div>
                 </RubberBand>

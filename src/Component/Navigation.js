@@ -1,4 +1,5 @@
 import { useState } from "react";
+import retinkLogo from "../Component/Images/Retink-logo.png";
 
 
 const Navigation = () => {
@@ -14,7 +15,7 @@ const Navigation = () => {
             <nav>
                 <div className="nav-con">
                     <div className="logo-con">
-                        <img src="https://retink.io/LOGO.svg" alt="A logo" />
+                        <img src={retinkLogo} alt="A logo" />
                     </div>
                     <ul>
                         <li>Home</li>

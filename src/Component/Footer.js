@@ -2,13 +2,15 @@ import kujiaLogo from "./Images/355443429_224217057121720_7508926847034413107_n.
 import kampusLogo from "./Images/Logonew.png";
 
 import mainLogo from "./Images/main-logo.jpg";
+import retinkLogo from "../Component/Images/Retink-logo.png";
+
 const Footer = () => {
     return ( 
         <footer>
             <h2>Partners</h2>
 
             <div className="footer-logos-con">
-                <img src="https://retink.io/LOGO.svg" alt="" />
+                <img src={retinkLogo} alt="" />
                 <img src={kujiaLogo} alt="Kujai logo"  />
                 <img src={kampusLogo} alt="Kampus logo" />
                 
@@ -20,27 +22,27 @@ const Footer = () => {
                 <div className="safari-business">
                     <h4>KujiaRetink Safari</h4>
                     <ul>
-                        <li>Become a Partner</li>
-                        <li>About Us</li>
-                        <li>Contact Us</li>
-                        <li>Affiliate</li>
+                        <li><a href="https://retinkmedia.com/become-a-partner/">Become a Partner</a> </li>
+                        <li><a href="https://retink.io/about/"> About Us</a></li>
+                        <li><a href="https://retinkmedia.com/contact-us/">Contact Us</a> </li>
+                        <li><a href="https://retinkmedia.com/subscription-plan/">Affiliate</a></li>
                     </ul>
                 </div>
                 <div className="career">
                     <h4>Help</h4>
                     <ul>
-                        <li>Blog</li>
-                        <li>Help and Support</li>
-                        <li>Investors</li>
+                        <li><a href="https://blog.retinkmedia.com/"> Blog</a></li>
+                        <li><a href="https://retinkmedia.com/support/">Help and Support</a></li>
+                        <li><a href="https://retinkmedia.com/become-an-investor/">Investors</a></li>
                     </ul>
                 </div>
                 <div className="terms">
                     <h4>Terms</h4>
                     <ul>
-                        <li>Privacy Policy</li>
+                        <li><a href="https://retinkmedia.com/privacy-policy/">Privacy Policy</a></li>
                         <li>Cookies Settings</li>
                         <li>Sitemap</li>
-                        <li>Accessibility Statement</li>
+                        <li><a href="https://retinkmedia.com/accessibility-statement/">Accessibility Statement</a></li>
                     </ul>
                 </div>
             </div>

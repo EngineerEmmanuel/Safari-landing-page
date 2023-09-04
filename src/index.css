@@ -109,49 +109,8 @@ nav{
 .hero-img-con >img{
   width: 20rem;
 }
-/* SLIDER SECTION */
-.slider-section{
-  position: relative;
-  margin-top: 6rem;
-}
-.left-arrow{
-  background-color: #695BA7;
-  position: absolute;
-  top: 47%;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 100px;
-  left: 10px;
-  font-size: 2rem;
-  color: white;
-  text-align: center;
-  cursor: pointer;
-}
-.right-arrow{
-  background-color: #695BA7;
-  position: absolute;
-  width: 3rem;
-  height: 3rem;
-  right: 10px;
-  top: 47%;
-  cursor: pointer;
- 
-  border-radius: 100px;
-  font-size: 2rem;
-  color: white;
-  text-align: center;
-  
-}
-.slider-section-text{
-  text-align: center;
-  padding-top: 20rem;
- 
-  
-}
-.slider-section-text >h2{
-  color: white;
-  margin-top: 2rem;
-}
+/* SLIDER SECTION  has it`s own CSS file now, the file name is SliderSectionStyles.css. It is inside the Styles folder*/
+
 /* ABOUT / PARTNERING SECTION */
 .about-text-con{
   display: grid;
@@ -440,6 +399,9 @@ footer > hr{
     text-align: center;
     padding-top: 1rem;
   }
+  .break-tag{
+    display: none;
+  }
 }
 @media (max-width:463px) {
   .when-background-con{
@@ -466,7 +428,7 @@ footer > hr{
   
 }
 .slider-section-text >h2{
-  /* padding-bottom: 2rem; */
+  
   font-size: 1.3rem;
   
 }
@@ -481,6 +443,9 @@ footer > hr{
   padding-top: 17rem;
  
   
+}
+.when-background-con{
+  width: 20.5rem;
 }
 }
 
@@ -509,17 +474,7 @@ footer > hr{
     font-size: 1.8rem;
     padding-top: 1rem;
   }
-  .left-arrow{
-    width: 2.5rem;
-    height: 2.5rem;
-    left: 10px;
-    font-size: 1.5rem;
-  }
-  .right-arrow{
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 1.5rem;
-  }
+  
   .feature-section{
     margin-top: 4rem;
   }
@@ -539,19 +494,7 @@ footer > hr{
   .feature-section{
     margin-top: 4rem;
   }
-  .left-arrow{
-    
-    left: 10px;
-    font-size: 1.5rem;
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-  .right-arrow{
-    
-    font-size: 1.5rem;
-    width: 2.5rem;
-    height: 2.5rem;
-  }
+ 
 }
 
 
@@ -594,6 +537,11 @@ footer > hr{
   .grid-element-text{
     padding-left: 0.1rem;
     padding-right: 0.1rem;
+  }
+}
+@media (max-width:309px) {
+  .when-background-con{
+    width: 17rem;
   }
 }
 @media (max-width:307px){

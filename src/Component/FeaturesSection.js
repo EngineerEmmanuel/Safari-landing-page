@@ -4,8 +4,8 @@
 const FeatureSection = () => {
     return ( 
         <section className="feature-section container">
-            <h2>Exploring Kenyans Natural Beauty And Tech Scene</h2>
-            <p>The Safari Programme lasts for 2 weeks and runs 16 times per year.<br/>The Programme includes visits to universities, coworking labs, tech exhibitions and events across Kenya</p>
+            <h2>Exploring Kenyan`s Natural Beauty And Tech Scene</h2>
+            <p>The Safari programme lasts for 2 weeks and runs 16 times per year<br/>The programme includes visits to universities, coworking labs, tech exhibitions and events across Kenya</p>
             <div className="feature-grid-con">
                 <div className="grid-elements">
                     <div className="grid-element-text">
